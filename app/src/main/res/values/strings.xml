@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Food online</string>
+    <string name="login">Login</string>
+    <string name="login_header">Sign in:</string>
+    <string name="register">Register</string>
+    <string name="register_header">Sign up:</string>
+    <string name="registration_username_hint">Enter username</string>
+    <string name="registration_password_hint">Enter password</string>
+    <string name="registration_name_hint">Enter name</string>
+    <string name="registration_surname_hint">Enter surname</string>
+    <string name="registration_user_created_success">User created successfully</string>
+    <string name="registration_user_created_400">User with specified username already exists</string>
+    <string name="registration_user_created_network_problem">Network problem</string>
+    <string name="registration_form_errors">Errors in form</string>
+    <string name="button_exit">Exit</string>
+    <string name="login_bad_form">Unable to find user with specified password and username</string>
+    <string name="registration_user_created_500">Server error</string>
+    <string name="backButton">Back</string>
+    <string name="home_logged_as">Logged as:</string>
+    <string name="button_continue">Continue</string>
+    <string name="activity_main_header">Hungry? Login or create account and order food from your favorites restaurants!</string>
+    <string name="home_logout">Log out</string>
+    <string name="home_history">Check orders history</string>
+    <string name="home_order">Order food</string>
+    <string name="history_header">Last orders</string>
+</resources>

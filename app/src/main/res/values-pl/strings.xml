@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jedzenie online</string>
+    <string name="login">Logowanie</string>
+    <string name="register">Rejestracja</string>
+    <string name="activity_main_header">Glodny? Zaloguj sie lub stworz konto i zamawiaj jedzenie ze swoich ulubionych restauracji!</string>
+    <string name="login_header">Zaloguj sie:</string>
+    <string name="register_header">Zarejestruj sie:</string>
+    <string name="registration_username_hint">Podaj nazwę użytkownika</string>
+    <string name="registration_password_hint">Podaj hasło</string>
+    <string name="registration_name_hint">Podaj imię</string>
+    <string name="backButton">Wróć</string>
+    <string name="button_exit">Wyjście</string>
+    <string name="registration_form_errors">Błędy w formularzu</string>
+    <string name="login_bad_form">Brak użytkownika z podanym loginem i hasłem</string>
+    <string name="registration_user_created_success">Utworzono konto użytkownika</string>
+    <string name="registration_user_created_400">Użytkownik o danym loginie już istnieje</string>
+    <string name="registration_user_created_500">Błąd serwera</string>
+    <string name="registration_user_created_network_problem">Błąd sieci</string>
+    <string name="registration_surname_hint">Podaj nazwisko</string>
+    <string name="button_continue">Kontynuuj</string>
+    <string name="home_logged_as">Zalogowany jako:</string>
+    <string name="home_logout">Wyloguj sie</string>
+    <string name="home_history">Sprawdź historie zamowien</string>
+    <string name="home_order">Zamow jedzenie</string>
+    <string name="history_header">Ostatnie zamówienia</string>
+</resources>

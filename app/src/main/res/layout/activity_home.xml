@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/loggedAsHeader"
+        android:background="@color/white"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/chunkfive"
+        android:text="@string/home_logged_as"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="148dp"
+        android:background="@color/white"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/home_order"
+            android:background="@color/white"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home_order"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/home_history"
+            android:background="@color/white"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home_history"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="502dp" />
+
+        <Button
+            android:id="@+id/home_logout"
+            android:background="@color/white"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home_logout"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="254dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
