@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
         this.handleLoggedAsHandler();
         this.handleLogoutButton();
         this.handleHistoryButton();
+        this.handleOrderButton();
     }
 
     private void handleLoggedAsHandler(){
@@ -25,13 +26,19 @@ public class HomeActivity extends AppCompatActivity {
         textView.setText(getResources().getString(R.string.home_logged_as) +"  "+ SessionCache.getInstance().getLoggedUsername());
     }
 
+    private void handleOrderButton(){
+        Button button = findViewById(R.id.home_order);
+        button.setOnClickListener(view -> {
+            Intent intent = new Intent(view.getContext(), RestaurantsListActivity.class);
+            view.getContext().startActivity(intent);
+        });
+    }
+
     private void handleLogoutButton(){
         Button button = findViewById(R.id.home_logout);
         button.setOnClickListener(view -> {
-            SessionCache.getInstance().setLoggedUsername(null);
+            SessionCache.removeInstance();
             Intent intent = new Intent(view.getContext(), MainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
             view.getContext().startActivity(intent);
         });
     }

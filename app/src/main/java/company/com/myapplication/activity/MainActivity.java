@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private void handleExitButton(){
         Button exitButton = findViewById(R.id.exitButton);
         exitButton.setOnClickListener(view -> {
-            finish();
-            System.exit(0);
+           finishAffinity();
         });
     }
 

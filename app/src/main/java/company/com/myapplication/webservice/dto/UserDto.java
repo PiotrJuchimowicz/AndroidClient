@@ -60,4 +60,13 @@ public class UserDto {
         this.surname = surname;
     }
 
+    @Override
+    public String toString() {
+        return "UserDto{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
+    }
 }
